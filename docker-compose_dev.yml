@@ -206,7 +206,7 @@ services:
 
   pman_service:
     # pman also needs access to the pfioh storeBase folder (and hence the volume)
-    # mapping from the HOST file system space.
+.
     #
     # There is however an extra twist. Since pman spins off containers of its
     # own, it needs to mount this storeBase dir into the spawned container.
